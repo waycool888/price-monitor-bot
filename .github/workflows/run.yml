@@ -4,7 +4,7 @@ on:
   schedule:
     # 03:00 UTC = 11:00 AM SGT | 07:00 UTC = 3:00 PM SGT
     # 1-5 specifies execution exclusively on Monday, Tuesday, Wednesday, Thursday, and Friday.
-    - cron: '5 3,7 * * 1-5'
+    - cron: '18 3,7 * * 1-5'
   workflow_dispatch: # Keeps manual button available for diagnostic checks
 
 jobs:
